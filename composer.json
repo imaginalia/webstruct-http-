@@ -18,5 +18,10 @@
         "psr-4": {
             "Webstruct\\Http\\": "webstruct/http"
         }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.1-dev"
+        }
     }
 }
