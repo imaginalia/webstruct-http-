@@ -13,6 +13,7 @@
             "Webstruct\\Http\\": "src/"
         }
     },
+    "minimum-stability": "dev",
     "autoload-dev": {
         "psr-4": {
             "Webstruct\\Http\\": "webstruct/http"
