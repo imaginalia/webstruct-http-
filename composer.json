@@ -1,0 +1,27 @@
+{
+    "name": "webstruct/http",
+    "description": "",
+    "license": "MIT",
+    "authors": [
+        {"name": "Amine Akhrif", "email": "dev@webstruct.de"}
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Webstruct\\Http\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "autoload-dev": {
+        "psr-4": {
+            "Webstruct\\Http\\": "webstruct/http"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.1-dev"
+        }
+    }
+}
