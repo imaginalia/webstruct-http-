@@ -1,0 +1,25 @@
+{
+    "name": "webstruct/http",
+    "description": "Webstruct Framework",
+    "authors": [
+        {
+            "name": "Amine Akhrif",
+            "email": "dev@webstruct.de"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/imaginalia/webstruct-http-"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "webstruct/http": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "HelloWorld": "webstruct/http/"
+        }
+    }
+}
